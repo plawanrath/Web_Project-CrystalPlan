@@ -24,6 +24,18 @@
 
   </head>
 <body>
+<div class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">CrystalPlan</a>
+      <a class="navbar-brand" style="float:right;" href="#">Log Out</a>
+      
+    </div><!-- /.container -->
+</div><!-- /.navbar -->
  <div class="container" id="container1">
         <div class="row centered-form">
             <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
@@ -61,7 +73,6 @@
                                 <option>Role</option>
                                 <option>Program Manager</option>
                                 <option>Core Team</option>
-                                <option>Fellow</option>
                             </select>                                
                             </div>
 
